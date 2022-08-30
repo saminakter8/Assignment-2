@@ -3,6 +3,7 @@
 
 /* common styles */
 .container {
+
     padding: 50px 140px;
     margin-bottom: 50px;
 }
@@ -34,7 +35,6 @@
 button {
     margin-top: 30px;
     padding: 10px;
-    /* width: 120px; */
     background-color: #DD0000;
     border-radius: 5px;
 
@@ -56,6 +56,7 @@ button {
 /* nav and blog section */
 .second {
     display: flex;
+    flex-direction: row;
 }
 
 .navigation-area {
@@ -102,7 +103,8 @@ button {
     border-radius: 6px;
     width: 250px;
     height: 320px;
-    margin: 24px;
+    margin: 0 24px 24px 24px;
+
 }
 
 .blog img {
@@ -120,6 +122,11 @@ button {
     color: gray;
     display: flex;
     justify-content: space-between;
+}
+
+.fa-clock,
+.fa-message {
+    background-color: gray;
 }
 
 /* footer */
@@ -149,4 +156,27 @@ footer hr {
 .in-detail span {
     color: gray;
     margin-right: 40px;
+}
+
+
+/* --------------------------------------
+Upcoming Match Index-2 File CSS
+------------------------------------------ */
+.country {
+    display: flex;
+
+}
+
+.country img {
+
+    width: 93px;
+    height: 56px;
+}
+
+.country-name span {
+    color: gray;
+}
+
+.blog-height {
+    height: 150px;
 }
