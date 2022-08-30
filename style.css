@@ -4,6 +4,7 @@
 /* common styles */
 .container {
     padding: 50px 140px;
+    margin-bottom: 50px;
 }
 
 /* top part */
@@ -119,4 +120,33 @@ button {
     color: gray;
     display: flex;
     justify-content: space-between;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: #161616;
+    padding: 180px;
+
+
+}
+
+footer hr {
+    border: 1px solid gray;
+    margin: 30px;
+
+}
+
+.in-detail {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.in-detail span {
+    color: gray;
+    margin-right: 40px;
 }
